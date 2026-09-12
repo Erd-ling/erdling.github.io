@@ -1,0 +1,1202 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Talks - Erdin Mujezinović</title>
+  <meta name="description" content="Academic webpage of Erdin Mujezinović">
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="https://erd-ling.github.io/talks/">
+  <link rel="shortcut icon" type ="image/x-icon" href="https://erd-ling.github.io/favicon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+  <link rel="preconnect" href="https://player.vimeo.com">
+  <link rel="preconnect" href="https://i.vimeocdn.com">
+  <link rel="preconnect" href="https://f.vimeocdn.com">
+
+
+
+<!-- Google Analytics (original) -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','');</script>
+<!-- End Google Tag Manager -->
+
+
+
+<script>
+MathJax = {
+    tex: {
+    inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
+    tags: 'ams'  // should be 'ams', 'none', or 'all' }. This line makes the equation numbering and labeling work
+    }, 
+    svg: {
+    fontCache: 'global'
+    }
+};
+</script>
+<script
+    type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script> 
+
+</head>
+
+
+  <body>
+
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id="
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="https://erd-ling.github.io/">
+     <img src="https://erd-ling.github.io/favicon.ico" width="30" height="30" style="margin-right:5px" class="d-inline-block align-top" alt="">
+      Erdin Mujezinović
+    </a>
+    <button class="toggler navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor02">
+        <div class="navbar-nav mr-auto">
+            <a class="nav-item nav-link" href="https://erd-ling.github.io/">Home</a>
+                   
+                <a class="nav-item nav-link" href="https://erd-ling.github.io/about">About</a>
+                   
+                <a class="nav-item nav-link" href="https://erd-ling.github.io/publications">Publications</a>
+                   
+                <a class="nav-item nav-link" href="https://erd-ling.github.io/talks">Talks</a>
+                   
+                <a class="nav-item nav-link" href="https://erd-ling.github.io/research">Research</a>
+                   
+                <a class="nav-item nav-link" href="https://erd-ling.github.io/software">Software</a>
+                   
+                <a class="nav-item nav-link" href="https://erd-ling.github.io/teaching">Teaching</a>
+                   
+                <a class="nav-item nav-link" href="https://erd-ling.github.io/experiments">Experiments</a>
+            
+        </div>
+    </div>
+</nav>
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <div id="gridid" class="col-sm-12 col-xs-12">
+  <style>
+.btn{
+    margin-bottom:5px;
+    padding-top:1px;
+    padding-bottom:1px;
+    padding-left:15px;
+    padding-right:15px;
+}
+.jumbotron{
+    padding:3%;
+    padding-bottom:10px;
+    padding-top:10px;
+    margin-top:10px;
+    margin-bottom:30px;
+}
+</style>
+
+<!--
+<div class="jumbotron">
+### Invited talks
+<ol class="bibliography" reversed="reversed"></ol>
+</div>
+-->
+
+<div class="jumbotron">
+  <h3 id="presentations">Presentations</h3>
+  <ol class="bibliography" reversed="reversed"><li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height:20px
+}
+
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify"><span id="lan2026">Mujezinović, E. (2026, June). <i>Phonetic Drift vs. Phonetic Attrition – same phenomena, different names?</i> Invited Talk at the Language Attrition Network (LAN).</span></div>
+
+<!-- You can use the below to make your name bold -->
+<!-- <span id="lan2026">Mujezinović, E. (2026, June). <i>Phonetic Drift vs. Phonetic Attrition – same phenomena, different names?</i> Invited Talk at the Language Attrition Network (LAN).</span></div> -->
+
+
+
+
+
+<a href="/talks/mujezinovic_lan_2026.pdf" target="_blank">
+  <button class="btn btn-success btn-sm">PDF</button>
+</a>
+
+
+
+
+
+
+
+
+
+<div id="alan2026" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@incollection{lan2026,
+  author = {Mujezinović, Erdin},
+  title = {Phonetic Drift vs. Phonetic Attrition – same phenomena, different names?},
+  note = {Invited Talk at the Language Attrition Network (LAN)},
+  year = {2026, June},
+  keywords = {Talk},
+  file = {mujezinovic_lan_2026.pdf}
+}
+</pre>
+</div>
+
+
+<div id="blan2026" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre></pre>
+</div>
+
+<script>
+function toggleBibtexlan2026(parameter) {
+    var x= document.getElementById('alan2026');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractlan2026(parameter) {
+    var x= document.getElementById('blan2026');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height:20px
+}
+
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify"><span id="absent2024">Mujezinović, E., Kapatsinski, V., &amp; van de Vijver, R. (2024, October). <i>When the future affects the past: Learning form-meaning associations through absent cues</i>. Talk at the Complex Words Colloquium, Heinrich-Heine University, Düsseldorf, Germany.</span></div>
+
+<!-- You can use the below to make your name bold -->
+<!-- <span id="absent2024">Mujezinović, E., Kapatsinski, V., &amp; van de Vijver, R. (2024, October). <i>When the future affects the past: Learning form-meaning associations through absent cues</i>. Talk at the Complex Words Colloquium, Heinrich-Heine University, Düsseldorf, Germany.</span></div> -->
+
+
+
+
+
+<a href="/talks/mujezinovic_kapatsinski_vijver_complex_2024.pdf" target="_blank">
+  <button class="btn btn-success btn-sm">PDF</button>
+</a>
+
+
+
+
+
+
+
+
+
+<div id="aabsent2024" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@incollection{absent2024,
+  author = {Mujezinović, Erdin and Kapatsinski, Vsevolod and van de Vijver, Ruben},
+  title = {When the future affects the past: Learning form-meaning associations through absent cues},
+  note = {Talk at the Complex Words Colloquium, Heinrich-Heine University, Düsseldorf, Germany},
+  year = {2024, October},
+  keywords = {Talk},
+  file = {mujezinovic_kapatsinski_vijver_complex_2024.pdf}
+}
+</pre>
+</div>
+
+
+<div id="babsent2024" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre></pre>
+</div>
+
+<script>
+function toggleBibtexabsent2024(parameter) {
+    var x= document.getElementById('aabsent2024');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractabsent2024(parameter) {
+    var x= document.getElementById('babsent2024');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height:20px
+}
+
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify"><span id="countpredone2022">Mujezinović, E., &amp; van de Vijver, R. (2022, May). <i>To count or to predict: Taking arms against a sea of statistics</i>. Talk at the 29th Manchester Phonology Meeting (29mfm), Manchester, Great Britain (Online).</span></div>
+
+<!-- You can use the below to make your name bold -->
+<!-- <span id="countpredone2022">Mujezinović, E., &amp; van de Vijver, R. (2022, May). <i>To count or to predict: Taking arms against a sea of statistics</i>. Talk at the 29th Manchester Phonology Meeting (29mfm), Manchester, Great Britain (Online).</span></div> -->
+
+
+
+
+
+<a href="/talks/mujezinovic_vijver_mfm29_2022.pdf" target="_blank">
+  <button class="btn btn-success btn-sm">PDF</button>
+</a>
+
+
+
+
+
+
+
+
+
+<div id="acountpredone2022" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@incollection{countpredone2022,
+  author = {Mujezinović, Erdin and van de Vijver, Ruben},
+  title = {To count or to predict: Taking arms against a sea of statistics},
+  note = {Talk at the 29th Manchester Phonology Meeting (29mfm), Manchester, Great Britain (Online)},
+  year = {2022, May},
+  keywords = {Talk},
+  file = {mujezinovic_vijver_mfm29_2022.pdf}
+}
+</pre>
+</div>
+
+
+<div id="bcountpredone2022" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre></pre>
+</div>
+
+<script>
+function toggleBibtexcountpredone2022(parameter) {
+    var x= document.getElementById('acountpredone2022');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractcountpredone2022(parameter) {
+    var x= document.getElementById('bcountpredone2022');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height:20px
+}
+
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify"><span id="unlearnone2022">Mujezinović, E., &amp; van de Vijver, R. (2022, August). <i>Learning to unlearn: The role of negative evidence in morphophonological learning</i>. Talk at The Second International Conference on Error-driven Learning in Language (EDLL2022), Tübingen, Germany (Online).</span></div>
+
+<!-- You can use the below to make your name bold -->
+<!-- <span id="unlearnone2022">Mujezinović, E., &amp; van de Vijver, R. (2022, August). <i>Learning to unlearn: The role of negative evidence in morphophonological learning</i>. Talk at The Second International Conference on Error-driven Learning in Language (EDLL2022), Tübingen, Germany (Online).</span></div> -->
+
+
+
+
+
+<a href="/talks/mujezinovic_vijver_edll_2022_unlearning.pdf" target="_blank">
+  <button class="btn btn-success btn-sm">PDF</button>
+</a>
+
+
+
+
+
+
+
+
+
+<div id="aunlearnone2022" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@incollection{unlearnone2022,
+  author = {Mujezinović, Erdin and van de Vijver, Ruben},
+  title = {Learning to unlearn: The role of negative evidence in morphophonological learning},
+  note = {Talk at The Second International Conference on Error-driven Learning in Language (EDLL2022), Tübingen, Germany (Online)},
+  year = {2022, August},
+  keywords = {Talk},
+  file = {mujezinovic_vijver_edll_2022_unlearning.pdf}
+}
+</pre>
+</div>
+
+
+<div id="bunlearnone2022" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre></pre>
+</div>
+
+<script>
+function toggleBibtexunlearnone2022(parameter) {
+    var x= document.getElementById('aunlearnone2022');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractunlearnone2022(parameter) {
+    var x= document.getElementById('bunlearnone2022');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height:20px
+}
+
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify"><span id="countpredtwo2022">Mujezinović, E., &amp; van de Vijver, R. (2022, August). <i>To count or to predict? Revisiting error-driven distributional learning of phonetic categories</i>. Talk at The Second International Conference on Error-driven Learning in Language (EDLL2022), Tübingen, Germany (Online).</span></div>
+
+<!-- You can use the below to make your name bold -->
+<!-- <span id="countpredtwo2022">Mujezinović, E., &amp; van de Vijver, R. (2022, August). <i>To count or to predict? Revisiting error-driven distributional learning of phonetic categories</i>. Talk at The Second International Conference on Error-driven Learning in Language (EDLL2022), Tübingen, Germany (Online).</span></div> -->
+
+
+
+
+
+<a href="/talks/mujezinovic_vijver_edll_2022_category.pdf" target="_blank">
+  <button class="btn btn-success btn-sm">PDF</button>
+</a>
+
+
+
+
+
+
+
+
+
+<div id="acountpredtwo2022" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@incollection{countpredtwo2022,
+  author = {Mujezinović, Erdin and van de Vijver, Ruben},
+  title = {To count or to predict? Revisiting error-driven distributional learning of phonetic categories},
+  note = {Talk at The Second International Conference on Error-driven Learning in Language (EDLL2022), Tübingen, Germany (Online)},
+  year = {2022, August},
+  keywords = {Talk},
+  file = {mujezinovic_vijver_edll_2022_category.pdf}
+}
+</pre>
+</div>
+
+
+<div id="bcountpredtwo2022" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre></pre>
+</div>
+
+<script>
+function toggleBibtexcountpredtwo2022(parameter) {
+    var x= document.getElementById('acountpredtwo2022');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractcountpredtwo2022(parameter) {
+    var x= document.getElementById('bcountpredtwo2022');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height:20px
+}
+
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify"><span id="error2021">Mujezinović, E. (2021, December). <i>Error-driven learning in morphophonology – Evidence from an experimental study</i>. Talk at the Studierendenkolloquium Linguistik &amp; CL, Heinrich-Heine University, Düsseldorf, Germany.</span></div>
+
+<!-- You can use the below to make your name bold -->
+<!-- <span id="error2021">Mujezinović, E. (2021, December). <i>Error-driven learning in morphophonology – Evidence from an experimental study</i>. Talk at the Studierendenkolloquium Linguistik &amp; CL, Heinrich-Heine University, Düsseldorf, Germany.</span></div> -->
+
+
+
+
+
+<a href="/talks/mujezinovic_studikolloq_2021.pdf" target="_blank">
+  <button class="btn btn-success btn-sm">PDF</button>
+</a>
+
+
+
+
+
+
+
+
+
+<div id="aerror2021" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@incollection{error2021,
+  author = {Mujezinović, Erdin},
+  title = {Error-driven learning in morphophonology – Evidence from an experimental study},
+  note = {Talk at the Studierendenkolloquium Linguistik \&amp; CL, Heinrich-Heine University, Düsseldorf, Germany},
+  year = {2021, December},
+  keywords = {Talk},
+  file = {mujezinovic_studikolloq_2021.pdf}
+}
+</pre>
+</div>
+
+
+<div id="berror2021" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre></pre>
+</div>
+
+<script>
+function toggleBibtexerror2021(parameter) {
+    var x= document.getElementById('aerror2021');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstracterror2021(parameter) {
+    var x= document.getElementById('berror2021');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height:20px
+}
+
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify"><span id="serbpitchone2019">Mujezinović, E. (2019, June). <i>Reciprocal Transfer Effects of Suprasegmental Features in Serbo-Croatian Heritage Speakers – An Acoustic Study</i>. Talk at the Forschungskolloquium Phonetik &amp; Phonologie, Heinrich-Heine University, Düsseldorf, Germany.</span></div>
+
+<!-- You can use the below to make your name bold -->
+<!-- <span id="serbpitchone2019">Mujezinović, E. (2019, June). <i>Reciprocal Transfer Effects of Suprasegmental Features in Serbo-Croatian Heritage Speakers – An Acoustic Study</i>. Talk at the Forschungskolloquium Phonetik &amp; Phonologie, Heinrich-Heine University, Düsseldorf, Germany.</span></div> -->
+
+
+
+
+
+<a href="/talks/mujezinovic_phonkolloq_2019.pdf" target="_blank">
+  <button class="btn btn-success btn-sm">PDF</button>
+</a>
+
+
+
+
+
+
+
+
+
+<div id="aserbpitchone2019" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@incollection{serbpitchone2019,
+  author = {Mujezinović, Erdin},
+  title = {Reciprocal Transfer Effects of Suprasegmental Features in Serbo-Croatian Heritage Speakers – An Acoustic Study},
+  note = {Talk at the Forschungskolloquium Phonetik \&amp; Phonologie, Heinrich-Heine University, Düsseldorf, Germany},
+  year = {2019, June},
+  keywords = {Talk},
+  file = {mujezinovic_phonkolloq_2019.pdf}
+}
+</pre>
+</div>
+
+
+<div id="bserbpitchone2019" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre></pre>
+</div>
+
+<script>
+function toggleBibtexserbpitchone2019(parameter) {
+    var x= document.getElementById('aserbpitchone2019');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractserbpitchone2019(parameter) {
+    var x= document.getElementById('bserbpitchone2019');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li></ol>
+</div>
+
+<div class="jumbotron">
+  <h3 id="poster-presentations">Poster presentations</h3>
+  <ol class="bibliography" reversed="reversed"><li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height:20px
+}
+
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify"><span id="amlap2026">Jessie S. Nixon, R. van de V., Erdin Mujezinović. (2026, September). <i>What drives predictive accuracy and response times in incremental sequence learning?</i> Poster at the Architectures and Mechanisms of Language Processing (AMLaP), Universität des Saarlands, Saabrücken, Germany.</span></div>
+
+<!-- You can use the below to make your name bold -->
+<!-- <span id="amlap2026">Jessie S. Nixon, R. van de V., Erdin Mujezinović. (2026, September). <i>What drives predictive accuracy and response times in incremental sequence learning?</i> Poster at the Architectures and Mechanisms of Language Processing (AMLaP), Universität des Saarlands, Saabrücken, Germany.</span></div> -->
+
+
+
+
+
+<a href="/talks/nixon_mujezinovic_vijver_amlap_2026.pdf" target="_blank">
+  <button class="btn btn-success btn-sm">PDF</button>
+</a>
+
+
+
+
+
+
+
+
+
+<div id="aamlap2026" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@incollection{amlap2026,
+  author = {Jessie S. Nixon, Erdin Mujezinović, Ruben van de Vijver},
+  title = {What drives predictive accuracy and response times in incremental sequence learning?},
+  note = {Poster at the Architectures and Mechanisms of Language Processing (AMLaP), Universität des Saarlands, Saabrücken, Germany},
+  year = {2026, September},
+  keywords = {Poster},
+  file = {nixon_mujezinovic_vijver_amlap_2026.pdf}
+}
+</pre>
+</div>
+
+
+<div id="bamlap2026" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre></pre>
+</div>
+
+<script>
+function toggleBibtexamlap2026(parameter) {
+    var x= document.getElementById('aamlap2026');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractamlap2026(parameter) {
+    var x= document.getElementById('bamlap2026');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height:20px
+}
+
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify"><span id="pape2025">Jessie S. Nixon, R. van de V., Erdin Mujezinović. (2025, June). <i>Can error-driven discriminative learning explain transitional probability learning during listening to running speech?</i> Poster at the 6th Phonetics and Phonology in Europe (PaPE 2025), University of the Balearic Islands, Mallorca, Spain.</span></div>
+
+<!-- You can use the below to make your name bold -->
+<!-- <span id="pape2025">Jessie S. Nixon, R. van de V., Erdin Mujezinović. (2025, June). <i>Can error-driven discriminative learning explain transitional probability learning during listening to running speech?</i> Poster at the 6th Phonetics and Phonology in Europe (PaPE 2025), University of the Balearic Islands, Mallorca, Spain.</span></div> -->
+
+
+
+
+
+<a href="/talks/nixon_mujezinovic_vijver_pape_2025.pdf" target="_blank">
+  <button class="btn btn-success btn-sm">PDF</button>
+</a>
+
+
+
+
+
+
+
+
+
+<div id="apape2025" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@incollection{pape2025,
+  author = {Jessie S. Nixon, Erdin Mujezinović, Ruben van de Vijver},
+  title = {Can error-driven discriminative learning explain transitional probability learning during listening to running speech?},
+  note = {Poster at the 6th Phonetics and Phonology in Europe (PaPE 2025), University of the Balearic Islands, Mallorca, Spain},
+  year = {2025, June},
+  keywords = {Poster},
+  file = {nixon_mujezinovic_vijver_pape_2025.pdf}
+}
+</pre>
+</div>
+
+
+<div id="bpape2025" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre></pre>
+</div>
+
+<script>
+function toggleBibtexpape2025(parameter) {
+    var x= document.getElementById('apape2025');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractpape2025(parameter) {
+    var x= document.getElementById('bpape2025');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height:20px
+}
+
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify"><span id="unfamiliar2025">Mujezinović, E., van de Vijver, R., &amp; Kapatsinski, V. (2025, July). <i>How error-driven learning shapes distributional learning of a familiar phonetic category</i>. Poster at the Abstract and Item-Specific Knowledge Across Domains and Frameworks Workshop (Linguistic Summer Institute 2025), University of Oregon, Eugene, USA.</span></div>
+
+<!-- You can use the below to make your name bold -->
+<!-- <span id="unfamiliar2025">Mujezinović, E., van de Vijver, R., &amp; Kapatsinski, V. (2025, July). <i>How error-driven learning shapes distributional learning of a familiar phonetic category</i>. Poster at the Abstract and Item-Specific Knowledge Across Domains and Frameworks Workshop (Linguistic Summer Institute 2025), University of Oregon, Eugene, USA.</span></div> -->
+
+
+
+
+
+<a href="/talks/mujezinovic_kapatsinski_vijver_lsa_2025.pdf" target="_blank">
+  <button class="btn btn-success btn-sm">PDF</button>
+</a>
+
+
+
+
+
+
+
+
+
+<div id="aunfamiliar2025" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@incollection{unfamiliar2025,
+  author = {Mujezinović, Erdin and van de Vijver, Ruben and Kapatsinski, Vsevolod},
+  title = {How error-driven learning shapes distributional learning of a familiar phonetic category},
+  note = {Poster at the Abstract and Item-Specific Knowledge Across Domains and Frameworks Workshop (Linguistic Summer Institute 2025), University of Oregon, Eugene, USA},
+  year = {2025, July},
+  keywords = {Poster},
+  file = {mujezinovic_kapatsinski_vijver_lsa_2025.pdf}
+}
+</pre>
+</div>
+
+
+<div id="bunfamiliar2025" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre></pre>
+</div>
+
+<script>
+function toggleBibtexunfamiliar2025(parameter) {
+    var x= document.getElementById('aunfamiliar2025');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractunfamiliar2025(parameter) {
+    var x= document.getElementById('bunfamiliar2025');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height:20px
+}
+
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify"><span id="findev2022">Mujezinović, E. (2022, October). <i>Final devoicing in German is incomplete – but the mental lexicon has to agree</i>. Poster at the 18th Phonetik und Phonologie Tagung, Bielefeld, Germany.</span></div>
+
+<!-- You can use the below to make your name bold -->
+<!-- <span id="findev2022">Mujezinović, E. (2022, October). <i>Final devoicing in German is incomplete – but the mental lexicon has to agree</i>. Poster at the 18th Phonetik und Phonologie Tagung, Bielefeld, Germany.</span></div> -->
+
+
+
+
+
+<a href="/talks/mujezinovic_pundp_2022.pdf" target="_blank">
+  <button class="btn btn-success btn-sm">PDF</button>
+</a>
+
+
+
+
+
+
+
+
+
+<div id="afindev2022" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@incollection{findev2022,
+  author = {Mujezinović, Erdin},
+  title = {Final devoicing in German is incomplete – but the mental lexicon has to agree},
+  note = {Poster at the 18th Phonetik und Phonologie Tagung, Bielefeld, Germany},
+  year = {2022, October},
+  keywords = {Poster},
+  file = {mujezinovic_pundp_2022.pdf}
+}
+</pre>
+</div>
+
+
+<div id="bfindev2022" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre></pre>
+</div>
+
+<script>
+function toggleBibtexfindev2022(parameter) {
+    var x= document.getElementById('afindev2022');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractfindev2022(parameter) {
+    var x= document.getElementById('bfindev2022');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height:20px
+}
+
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify"><span id="unlearntwo2022">Mujezinović, E., &amp; van de Vijver, R. (2022, August). <i>Learning to unlearn: The role of negative evidence in morphophonological learning</i>. Poster at the 4th Forensic Linguistics Short Course (Summer School), Düsseldorf, Germany.</span></div>
+
+<!-- You can use the below to make your name bold -->
+<!-- <span id="unlearntwo2022">Mujezinović, E., &amp; van de Vijver, R. (2022, August). <i>Learning to unlearn: The role of negative evidence in morphophonological learning</i>. Poster at the 4th Forensic Linguistics Short Course (Summer School), Düsseldorf, Germany.</span></div> -->
+
+
+
+
+
+<a href="/talks/mujezinovic_vijver_flsc_2022.pdf" target="_blank">
+  <button class="btn btn-success btn-sm">PDF</button>
+</a>
+
+
+
+
+
+
+
+
+
+<div id="aunlearntwo2022" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@incollection{unlearntwo2022,
+  author = {Mujezinović, Erdin and van de Vijver, Ruben},
+  title = {Learning to unlearn: The role of negative evidence in morphophonological learning},
+  note = {Poster at the 4th Forensic Linguistics Short Course (Summer School), Düsseldorf, Germany},
+  year = {2022, August},
+  keywords = {Poster},
+  file = {mujezinovic_vijver_flsc_2022.pdf}
+}
+</pre>
+</div>
+
+
+<div id="bunlearntwo2022" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre></pre>
+</div>
+
+<script>
+function toggleBibtexunlearntwo2022(parameter) {
+    var x= document.getElementById('aunlearntwo2022');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractunlearntwo2022(parameter) {
+    var x= document.getElementById('bunlearntwo2022');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height:20px
+}
+
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify"><span id="serbpitchtwo2019">Mujezinović, E. (2019, September). <i>Reciprocal Transfer Effects of Suprasegmental Features of First and Second Language examined through Serbo-Croatian Pitch Accent in Heritage Speakers</i>. Poster at the 15th Phonetik und Phonologie Tagung, Düsseldorf, Germany.</span></div>
+
+<!-- You can use the below to make your name bold -->
+<!-- <span id="serbpitchtwo2019">Mujezinović, E. (2019, September). <i>Reciprocal Transfer Effects of Suprasegmental Features of First and Second Language examined through Serbo-Croatian Pitch Accent in Heritage Speakers</i>. Poster at the 15th Phonetik und Phonologie Tagung, Düsseldorf, Germany.</span></div> -->
+
+
+
+
+
+<a href="/talks/mujezinovic_pundp_2019.pdf" target="_blank">
+  <button class="btn btn-success btn-sm">PDF</button>
+</a>
+
+
+
+
+
+
+
+
+
+<div id="aserbpitchtwo2019" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@incollection{serbpitchtwo2019,
+  author = {Mujezinović, Erdin},
+  title = {Reciprocal Transfer Effects of Suprasegmental Features of First and Second Language examined through Serbo-Croatian Pitch Accent in Heritage Speakers},
+  note = {Poster at the 15th Phonetik und Phonologie Tagung, Düsseldorf, Germany},
+  year = {2019, September},
+  keywords = {Poster},
+  file = {mujezinovic_pundp_2019.pdf}
+}
+</pre>
+</div>
+
+
+<div id="bserbpitchtwo2019" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre></pre>
+</div>
+
+<script>
+function toggleBibtexserbpitchtwo2019(parameter) {
+    var x= document.getElementById('aserbpitchtwo2019');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractserbpitchtwo2019(parameter) {
+    var x= document.getElementById('bserbpitchtwo2019');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li></ol>
+</div>
+
+
+</div>
+
+      </div>
+    </div>
+
+    <br/>
+<section id="footer">
+<div class="container-footer">
+  <div class="panel-footer">
+	  <div class="row">
+		<div class="col-sm-4">
+		    <h5>About</h5>	
+            <p>Erdin Mujezinović<br/> PhD student in General Linguistics<br/> Heinrich-Heine University Düsseldorf<br/> Institute for Linguistics<br/>
+</p>
+		</div>
+
+		<div class="col-sm-4">
+		    <h5>Contact</h5>	
+            <p><a href="mailto:erdin.mujezinovic@hhu.de" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Erdin via email</a> <br/> <a href="https://github.com/sbryngelson/academic-website-template"><i class="fa fa-github fa-1x"></i> Use this site as a template!</a>
+</p>
+		</div>
+
+		<div class="col-sm-4">
+		    <h5>Coordinates</h5>	
+            <p>Linguistics I: Phonetics and Phonology<br/> Office: 23.21.04.053<br/> Universitätsstraße 1<br/> 40225 Düsseldorf
+</p>
+		</div>
+	  </div>
+
+      <center><p>&copy 2026 Erdin Mujezinović </p></center>
+	</div>
+  </div>
+</div>
+
+<script src="/assets/javascript/bootstrap/bootstrap.bundle.min.js"></script>
+
+
+  </body>
+
+</html>

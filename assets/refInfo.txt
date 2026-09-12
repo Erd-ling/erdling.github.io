@@ -1,0 +1,1 @@
+%@incollection for talks, @software for sofware, @unpublished for unpublished manuscripts
